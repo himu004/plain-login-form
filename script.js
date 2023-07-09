@@ -13,7 +13,7 @@ signinBtn.onclick = function () {
     signinBtn.classList.remove("disable");
 }
 
-signupBtn1.onclick = function () {
+signupBtn.onclick = function () {
     nameField.style.maxHeight = "100px";
     title.innerHTML = "Sign Up";
     signupBtn.classList.remove("disable");
