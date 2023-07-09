@@ -51,7 +51,7 @@
                     </div>
 
                     <div class="btn-field">
-                        <button id="signupBtn">Sign up</button>
+                        <button id="signupBtn1">Sign up</button>
                         <button id="signinBtn" type="button" class="disable">Sign in</button>
                     </div>
                 </form>
@@ -59,25 +59,6 @@
         </div>
     </main>
     
-    <script>
-        let signupBtn = document.getElementById('signupBtn');
-        let signinBtn = document.getElementById('signinBtn');
-        let nameField = document.getElementById('nameField');
-        let title = document.getElementById('title');
-
-        signinBtn.onclick = function() {
-            nameField.style.maxHeight = "0";
-            title.innerHTML = "Sign In";
-            signupBtn.classList.add("disable");
-            signinBtn.classList.remove("disable");
-        }
-        
-        signupBtn.onclick = function() {
-            nameField.style.maxHeight = "60px";
-            title.innerHTML = "Sign Up";
-            signupBtn.classList.remove("disable");
-            signinBtn.classList.add("disable");
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
